@@ -11,4 +11,5 @@ public:
 	~Graph();
 	bool operator()(int i, int j);
 	void operator()(int i, int j, bool state);
+	void clear();
 };
