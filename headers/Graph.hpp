@@ -9,7 +9,10 @@ private:
 public:
 	Graph(int num_ids=0);
 	~Graph();
+	
 	bool operator()(int i, int j);
 	void operator()(int i, int j, bool state);
 	void clear();
+	
+	bool** adjacencyMatrix();
 };
